@@ -1,0 +1,32 @@
+.flex-container {
+  display:flex;
+  width: 400px;
+  height: 130px;
+  background-color: transparent;
+  flex-direction: row;
+  justify-content: flex-item;
+}
+
+.flex-item {
+  background-color: black;
+  width: 90px;
+  height: 90px;
+  margin: 10px;
+  border-style:hidden;
+}
+
+  .flex-container1 {
+    display:flex;
+    width: 100px;
+    height: 130px;
+    background-color: transparent;
+    flex-direction: row;
+    justify-content: flex-item;
+  }
+
+  .flex-item1 {
+    background-color: white;
+    width: 90px;
+    height: 90px;
+    margin: 10px;
+    border-style:hidden;

@@ -1,0 +1,40 @@
+h1 {
+  color:red;
+  font-style: italic;
+}
+@-webkit-keyframes argh-my-eyes {
+0%  { background-color: #ff0000; }
+49% { background-color: #ff0000; }
+50% { background-color: #ff0000; }
+99% { background-color: #000; }
+100% { background-color: #fff; }
+}
+@-moz-keyframes argh-my-eyes {
+0%   { background-color: #FF0000; }
+49% { background-color: #FF0000; }
+50% { background-color: #00FF00; }
+99% { background-color: #000; }
+100% { background-color: #fff; }
+}
+@keyframes argh-my-eyes {
+0%   { background-color: #FF0000; }
+49% { background-color: #00FF00 }
+50% { background-color: #ffffff; }
+99% { background-color: #FF0000; }
+100% { background-color: #fff; }
+}
+body {
+-webkit-animation: argh-my-eyes 1s infinite;
+-moz-animation:    argh-my-eyes 1s infinite;
+animation:         argh-my-eyes 0.1s infinite;
+}
+/* vi kan skapa klasser som har speciella egenskaper*/
+.gul{
+  color:yellow;
+}
+.normal {
+  font-style:normal;
+}
+#stor{
+  font-size: 49px;
+}
